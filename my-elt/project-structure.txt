@@ -1,0 +1,43 @@
+# Create main project directories
+mkdir -p src/{components,screens,hooks,services,types,navigation,contexts,utils,models,repositories,config,constants,styles,api,validators,middleware}
+
+# Create assets subdirectories
+mkdir -p assets/{images,fonts,icons,animations}
+
+# Create component subdirectories for better organization
+mkdir -p src/components/{common,forms,layout,feedback}
+
+# Create screen subdirectories
+mkdir -p src/screens/{auth,home,profile,settings}
+
+# Create service subdirectories
+mkdir -p src/services/{storage,analytics,notification}
+
+# Create API subdirectories
+mkdir -p src/api/{endpoints,interceptors,models}
+
+# Create test directories mirroring source structure
+mkdir -p __tests__/{components,screens,hooks,services,utils,integration,e2e}
+
+# Create Python backend structure
+mkdir -p backend/{api,services,models,repositories,middleware,config,utils,tests}
+
+# Create Python subdirectories
+mkdir -p backend/api/{routes,controllers,validators}
+mkdir -p backend/services/{auth,email,storage}
+mkdir -p backend/models/{entities,schemas}
+mkdir -p backend/tests/{unit,integration,fixtures}
+
+# Create configuration and documentation directories
+mkdir -p docs/{api,architecture,setup}
+mkdir -p scripts/{deployment,database,utils}
+
+# Create environment-specific config directories
+mkdir -p config/{development,staging,production}
+
+
+#or you may use this for complete structure
+# One-liner for the entire project structure
+mkdir -p src/{components/{common,forms,layout,feedback},screens/{auth,home,profile,settings},hooks,services/{storage,analytics,notification},types,navigation,contexts,utils,models,repositories,config,constants,styles,api/{endpoints,interceptors,models},validators,middleware} assets/{images,fonts,icons,animations} __tests__/{components,screens,hooks,services,utils,integration,e2e} backend/{api/{routes,controllers,validators},services/{auth,email,storage},models/{entities,schemas},repositories,middleware,config,utils,tests/{unit,integration,fixtures}} docs/{api,architecture,setup} scripts/{deployment,database,utils} config/{development,staging,production}
+
+#after creating the directories here are the inital files,
